@@ -1,41 +1,36 @@
-<h1 align="center"><b>Next.js</b> + <b>Supabase</b> Auth</h1>
+# Spotify Insights
 
-<p align="center" style="display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
-  <a href="https://nextjs.org">
-    <img src="https://img.shields.io/github/package-json/dependency-version/mryechkin/nextjs-supabase-auth/next?style=for-the-badge" alt="Next.js" />
-  </a>
-  <a href="https://www.supabase.io">
-    <img src="https://img.shields.io/github/package-json/dependency-version/mryechkin/nextjs-supabase-auth/@supabase/supabase-js?color=%2322c55e&style=for-the-badge" alt="Supabase" />
-  </a>
-  <a href="https://www.supabase.io">
-    <img src="https://img.shields.io/github/package-json/dependency-version/mryechkin/nextjs-supabase-auth/@supabase/auth-helpers-nextjs?color=%2322c55e&style=for-the-badge" alt="Supabase" />
-  </a>
-  <a href="https://github.com/mryechkin/nextjs-supabase-auth/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/mryechkin/nextjs-supabase-auth?style=for-the-badge" alt="License" />
-  </a>
-</p>
+Spotify Insights is a web application that connects to your Spotify account, providing personalized insights and visualizations based on your listening habits. Experience your music journey in a whole new way!
 
-<p align="center">
-  <img src="https://www.misha.wtf/_next/image?url=%2Fblog%2Fsupabase-auth-next-13-pkce%2Fcover.png&w=640&q=100" alt="Banner image" />
-</p>
+Check out the live demo: [https://spotify-app-six-rosy.vercel.app/](https://spotify-app-six-rosy.vercel.app/)
 
-## Overview
+## Features
 
-Sample project showing how to add authentication to [Next.js](https://nextjs.org/) 13+ using [Supabase](https://www.supabase.io/) [Auth](https://supabase.com/docs/guides/auth) and the [App Router](https://nextjs.org/docs/app) with React Server Components.
+- Connect to your Spotify account
+- View personalized listening insights and trends
+- Explore interactive visualizations of your music preferences
+- Secure authentication using Supabase
+- Efficient data management and storage
 
-This project is a supplement to [this guide](https://misha.wtf/blog/supabase-auth-next-13-pkce). See the link for a detailed tutorial.
+## How It Works
 
-> **Note**
-> The `main` branch is using the latest version of [Auth Helpers](https://supabase.com/docs/guides/auth/auth-helpers/nextjs) with the [Proof Key for Code Exchange](https://supabase.com/blog/supabase-auth-sso-pkce#introducing-pkce) (PKCE) flow. If you are looking for the older version (using Auth Helpers `0.6.1` or earlier) see the [`v2`](https://github.com/mryechkin/nextjs-supabase-auth/tree/v2) branch.
+Spotify Insights leverages the Spotify Web API to fetch user data and provide meaningful insights. The application makes API calls to retrieve information about your listening history, favorite artists, top tracks, and more. For more details on the Spotify Web API, visit the documentation [here](https://developer.spotify.com/documentation/web-api).
 
-## Disclaimer
+## Technology Stack
 
-This repo is meant to be an **example** only. Please feel free to fork it and make it your own.
+- **Frontend**: Next.js for a responsive and dynamic user interface
+- **Authentication**: Supabase Auth for secure user authentication ([Documentation](https://supabase.com/docs/guides/auth))
+- **Data Storage**: Supabase for efficient data management
+- **API Integration**: Spotify Web API for accessing music data and user information
 
-## Author
+## Authentication
 
-[Mykhaylo Ryechkin](https://github.com/mryechkin)
+This project uses Supabase for authentication, providing a secure and streamlined login process. The authentication code is adapted from [this Next.js + Supabase Auth example](https://github.com/mryechkin/nextjs-supabase-auth).
+
+## Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License.
