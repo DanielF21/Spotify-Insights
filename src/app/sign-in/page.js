@@ -12,5 +12,9 @@ export default async function SignInPage() {
     redirect('/');
   }
 
-  return <SignIn />;
+  return (
+    <div>
+      <SignIn />
+    </div>
+  );
 }

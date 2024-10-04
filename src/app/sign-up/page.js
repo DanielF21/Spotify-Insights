@@ -12,5 +12,9 @@ export default async function SignUpPage() {
     redirect('/');
   }
 
-  return <SignUp />;
+  return (
+    <div>
+      <SignUp />
+    </div>
+  );
 }
