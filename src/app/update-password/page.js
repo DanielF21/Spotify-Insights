@@ -12,7 +12,7 @@ export default async function UpdatePasswordPage() {
   } = await supabase.auth.getSession();
 
   if (!session) {
-    redirect('/sign-in');
+    redirect('./sign-in');
   }
 
   return <UpdatePassword />;

@@ -14,7 +14,7 @@ export default async function Home() {
   } = await supabase.auth.getUser()
 
   if (!user) {
-    redirect('/sign-in')
+    redirect('./sign-in')
   }
 
   return (
@@ -24,7 +24,7 @@ export default async function Home() {
       </h1>
       <div className="space-y-4">
         <Link 
-          href="/profile" 
+          href="./profile" 
           className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg text-center transition duration-300"
         >
           Go to Profile

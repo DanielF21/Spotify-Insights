@@ -9,7 +9,7 @@ export default async function SignUpPage() {
   const { data } = await supabase.auth.getSession();
 
   if (data?.session) {
-    redirect('/');
+    redirect('./');
   }
 
   return (
